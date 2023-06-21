@@ -1,0 +1,137 @@
+/* font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; */
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling*/
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    margin: 32px;
+    align-items: center;
+    
+}
+.netflix-logo{
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgba(229, 9, 20, 1);
+    fill: currentColor;
+    display: block;
+}
+
+.watch-anywhere{
+    background-image: url(./assets/ntflxx.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn{
+    background-color: #E50914;
+     color: white;
+     border-radius: 4px;
+}
+.sign-in .btn{
+    padding: 4px 16px;
+}
+
+
+/* Main Section */
+.watch-anywhere{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 512px;
+}
+
+h1{
+    color: rgb(144, 129, 229);
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h2{
+    color:white;
+    font-size: 24px;
+}
+
+p{
+    color:white;
+    margin: 1rem 0 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 18px;
+    width: 100%;
+    color: rgb(144, 129, 229);
+    line-height: 1.5rem;
+    padding: 1.5rem 1rem 0.5rem;
+}
+input{
+    height: 16px;
+    width: 188px;
+    padding: 1.5rem 1rem 0.5rem;
+}
+.get-started.btn{
+    height: 16px;
+    padding: 12px 24px;
+    margin: 0 0 0 8px;
+    
+}
+
+/* background-color */
+.bc{
+    background-color: black;
+}
+
+/* Line dividers */
+.line-divider{
+    width: 100%;
+    height: 0.5rem;
+    bottom: 8px;
+    background-color: rgb(35,35,35);
+}
+
+.aligner{
+    text-align: center;
+    display: flex;
+}
+
+.enjoy{
+    padding: 72px 0px 72px 0px;
+    text-align: center;
+    height: 744px;
+}
+
+img{
+    z-index: -1;
+}
+.tv-container{
+    overflow-x: hidden ;
+    overflow-y: hidden;
+    position: absolute;
+    /* z-index: -1; */
+
+}
+
+.download{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 257.333px;
+    align-items: center;
+}
+
+.watch-everything{
+    text-align: center;
+    height:744px ;
+}
+
+.profiles{
+    text-align: center;
+    height:744px ;
+}
